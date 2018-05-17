@@ -64,8 +64,7 @@ def findStartPosition(maze):
         for column in range(maze.getWidth()):
             if maze[row][column] == START:
                 return (row,column)
-            else:
-                return(-1, -1)
+    return(-1, -1)
                     
 # Prints the maze with no spaces between cells.
 def printMaze(maze):
